@@ -27,7 +27,7 @@
 }
 
 }
-.main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -159,7 +159,7 @@ button.delete_btn img:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed label {
     text-decoration: line-through;
     color: #888;
 }
