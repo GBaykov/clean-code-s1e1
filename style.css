@@ -144,17 +144,17 @@ li >    input[type="text"] {
     width: 226px;
 }
 
-li > button.delete_btn:hover {
+li > .delete_btn:hover {
     color: #CF2323;
 }
 
-button.delete_btn img {
+.delete_btn img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete_btn img:hover {
+.delete_btn img:hover {
     transform: rotateZ(0);
 }
 
@@ -169,11 +169,11 @@ ul li input[type=text] {
     display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul .edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.edit-mode label {
+ul .edit-mode label {
     display: none;
 }
